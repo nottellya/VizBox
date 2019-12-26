@@ -66,10 +66,8 @@
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\GvrHeadsetEditor.cs" />
+     <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
