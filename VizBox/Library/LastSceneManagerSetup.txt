@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Kit/_ShowRoom_Vol 4/Example 2.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
