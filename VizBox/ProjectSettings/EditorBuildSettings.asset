@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/__DELETED_GUID_Trash/c268b697832c6ef47942d297b1b0e614
     guid: c268b697832c6ef47942d297b1b0e614
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/VizBox/Menu.unity
     guid: 8681c5b2978d1d44a8efd744cf578874
   - enabled: 1
-    path: Assets/Scenes/Roam.unity
+    path: Assets/VizBox/Roam.unity
     guid: 3059b9925758be9449ca184d26d2fdce
   m_configObjects: {}
