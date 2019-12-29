@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/VizBox/Menu.unity
     guid: 8681c5b2978d1d44a8efd744cf578874
   - enabled: 1
-    path: Assets/VizBox/Scatterplot.unity
+    path: Assets/VizBox/Scatterplot/Scatterplot.unity
     guid: db9135a6a5518954689ff9c47cd7af96
   m_configObjects: {}

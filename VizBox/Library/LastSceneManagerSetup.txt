@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VizBox/Menu.unity
+- path: Assets/VizBox/Scatterplot/Scatterplot.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
