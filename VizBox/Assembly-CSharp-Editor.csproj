@@ -302,11 +302,8 @@
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
- <Reference Include="JMOAssets_MatCapWelcome">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll</HintPath>
- </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+ <Reference Include="DOTween">
+ <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
@@ -314,23 +311,17 @@
  <Reference Include="DOTween46">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
- <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
- </Reference>
- <Reference Include="JMOAssets">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/JMO Assets/Editor/JMOAssets.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="UnityVS.VersionSpecific">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/UnityVS/Editor/UnityVS.VersionSpecific.dll</HintPath>
- </Reference>
  <Reference Include="DOTween50">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets_MatCapWelcome">
+ <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

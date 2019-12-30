@@ -528,14 +528,14 @@
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
  <Reference Include="DOTween43">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
  <HintPath>E:/GithubFile/VizBoxGit/VizBox/Assets/IATK/Assets/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
