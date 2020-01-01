@@ -1,22 +1,48 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Axis
+    - AxisRangeWidget
+    - BrushingAndLinking
     - CarouselImage
-    - DoorDouble
-    - GvrControllerInput
     - GvrEditorEmulator
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
+    - IATK.BigMesh
+    - IATK.CSVDataSource
+    - IATK.Key
+    - IATK.ParallelCoordinatesVisualisation
+    - IATK.ScatterplotMatrixVisualisation
+    - IATK.ScatterplotVisualisation
+    - IATK.View
+    - IATK.Visualisation
     - PlayerWalk
+    - SceneController
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextContainer
+    - TMPro.TextMeshPro
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Kit/_ShowRoom_Vol 4/Example 2.unity:
+    Assets/VizBox/VizBox/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -35,6 +61,103 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9936}
+    - Class: 114
+      Script: {instanceID: 10008}
+    - Class: 114
+      Script: {instanceID: 10094}
+    - Class: 114
+      Script: {instanceID: 10118}
+    - Class: 114
+      Script: {instanceID: 10158}
+    - Class: 114
+      Script: {instanceID: 10210}
+    - Class: 114
+      Script: {instanceID: 10444}
+    - Class: 114
+      Script: {instanceID: 10714}
+    - Class: 114
+      Script: {instanceID: 10740}
+    - Class: 114
+      Script: {instanceID: 11168}
+    - Class: 114
+      Script: {instanceID: 11188}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11470}
+    - Class: 114
+      Script: {instanceID: 11590}
+    - Class: 114
+      Script: {instanceID: 11726}
+    - Class: 114
+      Script: {instanceID: 11770}
+    - Class: 114
+      Script: {instanceID: 11864}
+    - Class: 114
+      Script: {instanceID: 11972}
+    - Class: 114
+      Script: {instanceID: 12098}
+    - Class: 114
+      Script: {instanceID: 12152}
+    - Class: 114
+      Script: {instanceID: 17706}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/VizBox/VizBox/VizBox.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -43,10 +166,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -54,26 +173,54 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10314}
+      Script: {instanceID: 9966}
     - Class: 114
-      Script: {instanceID: 10566}
+      Script: {instanceID: 10008}
     - Class: 114
-      Script: {instanceID: 10738}
+      Script: {instanceID: 10094}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 10340}
     - Class: 114
-      Script: {instanceID: 11532}
+      Script: {instanceID: 10432}
     - Class: 114
-      Script: {instanceID: 11738}
+      Script: {instanceID: 10444}
     - Class: 114
-      Script: {instanceID: 11936}
+      Script: {instanceID: 10634}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 10694}
     - Class: 114
-      Script: {instanceID: 12026}
+      Script: {instanceID: 10714}
     - Class: 114
-      Script: {instanceID: 83654}
+      Script: {instanceID: 10888}
+    - Class: 114
+      Script: {instanceID: 10902}
+    - Class: 114
+      Script: {instanceID: 11168}
+    - Class: 114
+      Script: {instanceID: 11354}
+    - Class: 114
+      Script: {instanceID: 11454}
+    - Class: 114
+      Script: {instanceID: 11590}
+    - Class: 114
+      Script: {instanceID: 11726}
+    - Class: 114
+      Script: {instanceID: 12098}
+    - Class: 114
+      Script: {instanceID: 12152}
+    - Class: 114
+      Script: {instanceID: 12262}
+    - Class: 114
+      Script: {instanceID: 12304}
+    - Class: 114
+      Script: {instanceID: 17706}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -91,11 +238,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 218
       Script: {instanceID: 0}
-    - Class: 241
+    - Class: 222
       Script: {instanceID: 0}
-    - Class: 243
-      Script: {instanceID: 0}
-    - Class: 245
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -108,6 +253,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: f19fe941d3fd6f2a6dbbb11bd4c8a001
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DistanceLinker
   - hash:
       serializedVersion: 2
       Hash: 4bc4346a71a8df53a6b106f68ef3a190
@@ -134,6 +285,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: b911250c44ae035a7f8a0ec31e385e53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: CSVDataSource
+  - hash:
+      serializedVersion: 2
       Hash: 2aeeec1b1a144c469cd2d37776bc2315
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -158,6 +315,18 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: e8744321331bbe478fee745367b07f54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AxisRangeWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Gvr.Internal
+    className: EditorCameraOriginDict
+  - hash:
+      serializedVersion: 2
       Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -176,10 +345,22 @@ ScriptsOnlyBuild:
     className: MotionBlur
   - hash:
       serializedVersion: 2
+      Hash: 937396f3af9f09d561b26b5a44787014
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: Key
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7e91000139d8b6ba3cb68108d685d874
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BrushingAndLinking
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -248,12 +429,6 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 60eb065cb8ea340f8c72045b999a032f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleVR.VideoDemo
-    className: AppButtonInput
-  - hash:
-      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -264,6 +439,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: BigMesh
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -278,6 +459,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: e68704909076d00faafe08c023db91a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MyBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -288,12 +475,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrArmModel
-  - hash:
-      serializedVersion: 2
-      Hash: 444398bc4fb783b0b448ac3c979214e1
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GvrAudioRoom
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -314,16 +495,34 @@ ScriptsOnlyBuild:
     className: Vignette
   - hash:
       serializedVersion: 2
+      Hash: faf639d2d554d9d1b686052daa71e431
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestVisu
+  - hash:
+      serializedVersion: 2
       Hash: ff7d3100dcac4699fa2b5abb996d38b1
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Demos
     className: DemoInputManager
   - hash:
       serializedVersion: 2
+      Hash: a9c97a6c92db86ef34aad4b6a99578ca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: ScatterplotMatrixVisualisation
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0726ee959b526f8ad3a1759e486ca5fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NormalisationAxis
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -336,6 +535,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Demos
+    className: DemoInfoPanel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -356,10 +561,28 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 7301a028867293168da51539d513e773
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Activity0_Uber
+  - hash:
+      serializedVersion: 2
+      Hash: f06d178a0bb0e827dea284aadc6ffa57
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AttributeAnimation
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Demos
     className: DemoSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 95897037c7d679e5ab0c47c6972edd93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Activity1_lines
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -386,22 +609,28 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: a7a36e54dd89b925692e9c724baca397
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: Visualisation
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: ddd530020059d8ea01207ef734215f61
+      Hash: ffd851581ad1463c79a9801c93eea3df
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GvrAudioSoundfield
+    namespaceName: IATK
+    className: ScatterplotVisualisation
   - hash:
       serializedVersion: 2
-      Hash: 287963f788124d0954a11e14c88fe403
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleVR.VideoDemo
-    className: ToggleAction
+    namespaceName: 
+    className: AxisAnchor
   - hash:
       serializedVersion: 2
       Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
@@ -416,16 +645,16 @@ ScriptsOnlyBuild:
     className: EventSystem
   - hash:
       serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Sequences
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 9c5049a5be03714242c777afa18e44bf
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleVR.VideoDemo
-    className: PositionSwapper
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -446,10 +675,10 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 9b7eb6e37d36eaee8b53fbd16634b00b
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CubeController
+    namespaceName: IATK
+    className: DataMetadata
   - hash:
       serializedVersion: 2
       Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
@@ -464,6 +693,12 @@ ScriptsOnlyBuild:
     className: CarouselImage
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: View
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -472,7 +707,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: bf3913f0d6c694bf20e1d681c79a4993
     assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleVR.Hello6DoFController
+    namespaceName: GoogleVR.Beta.Demos
     className: DemoObjectController6DoF
   - hash:
       serializedVersion: 2
@@ -494,10 +729,16 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 47b386b944004c4742bea9f62e7ab644
+      Hash: 9fd6998cb4b14cf76266c8e5d512fd40
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GvrAudioListener
+    className: NormaliserHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 10e5e5a6a80d1d5521d8e42ecdcff303
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta.Demos
+    className: DemoSeeThroughController
   - hash:
       serializedVersion: 2
       Hash: d6fc8d3165070298511ec776ea575626
@@ -560,16 +801,40 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InputBrush
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 03a80bd821b041c0e4d42005c3a27dc7
+      Hash: 53ce9a4d3b026469b394261470c07be7
     assemblyName: Assembly-CSharp.dll
     namespaceName: Gvr.Internal
     className: InstantPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 245e167b749c6a7e7db841e6b0d3d749
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GoogleVR.Beta
+    className: GvrBetaHeadset
+  - hash:
+      serializedVersion: 2
+      Hash: 23f7a057369d356b9bc8cc90961f88ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Axis
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Parallel
   - hash:
       serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
@@ -626,6 +891,18 @@ ScriptsOnlyBuild:
     className: GvrControllerTooltipsSimple
   - hash:
       serializedVersion: 2
+      Hash: 946b2bc373a65352ee010e9217def3f1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Basics
+  - hash:
+      serializedVersion: 2
+      Hash: e98302a0c669fa1b05e295399a491bcf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: VRMenuInteractor
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -644,6 +921,18 @@ ScriptsOnlyBuild:
     className: GvrHeadset
   - hash:
       serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 4b14a5b5ca9d21a375985efd1fdf8cec
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -660,6 +949,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InstantPreviewHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: GUIEvents
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -698,13 +993,19 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Activity0_Linq
+  - hash:
+      serializedVersion: 2
       Hash: 89c433fef753b02de32958d7fe54cc06
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrLaserVisual
   - hash:
       serializedVersion: 2
-      Hash: c8a7a2ef3692d34c8a1465973843d934
+      Hash: 3521ce3e471952c1bdd4cc618dceb5ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrControllerVisual
@@ -712,8 +1013,20 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.VideoDemo
     className: ScrubberEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: DataSourceManager
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -726,6 +1039,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DoorDouble
+  - hash:
+      serializedVersion: 2
+      Hash: 8dd4f3caf7094d2ff90ae367d168ed42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: LinkingVisualisations
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -758,16 +1077,10 @@ ScriptsOnlyBuild:
     className: GvrTooltip
   - hash:
       serializedVersion: 2
-      Hash: 05e47cabaed0ac86fd569b8c5efa55e0
+      Hash: 12d597f55904a0e1480e1e25a07f583c
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.KeyboardDemo
     className: KeyboardDelegateExample
-  - hash:
-      serializedVersion: 2
-      Hash: 611d83895293a48a9ac45b6332288b77
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GvrAudioSource
   - hash:
       serializedVersion: 2
       Hash: d5630f96bd5a6a6eed7e1754c3fb8703
@@ -836,12 +1149,6 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 951ca3ece10453c66f3bff7007134476
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: GoogleVR.VideoDemo
-    className: MenuHandler
-  - hash:
-      serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -890,7 +1197,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: 3e2359b47f1dd7cc80d0201335459c5a
+      Hash: 9272257521fa59e2ad14f35e96c918e2
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.HelloVR
     className: HelloVRManager
@@ -900,6 +1207,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: ffd851581ad1463c79a9801c93eea3df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: ParallelCoordinatesVisualisation
   - hash:
       serializedVersion: 2
       Hash: 01bdf339a887de280d38eeb519dfda0d
@@ -920,10 +1233,22 @@ ScriptsOnlyBuild:
     className: Slider
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: IATK
+    className: Animation
+  - hash:
+      serializedVersion: 2
       Hash: 719e5a8f63dda20dad1ba86875c22268
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.VideoDemo
     className: AutoPlayVideo
+  - hash:
+      serializedVersion: 2
+      Hash: 765af7a082ba5827591cd9ec8b9ca7c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerWalk
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -932,7 +1257,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 9bffe7b440976b577390e7219394a4b5
+      Hash: 9ef0ed9504edb9d0914e240dee1b7846
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.Beta
     className: GvrBetaControllerVisualMulti
@@ -942,13 +1267,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 765af7a082ba5827591cd9ec8b9ca7c7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerWalk
   platform: 13
   scenePathNames:
-  - Assets/Kit/_ShowRoom_Vol 4/Example 2.unity
-  playerPath: D:/Unity/Project/VizBox/familytest.apk
+  - Assets/VizBox/VizBox/Menu.unity
+  - Assets/VizBox/VizBox/VizBox.unity
+  playerPath: C:/Users/EdSwa/Desktop/InitialTest.apk
