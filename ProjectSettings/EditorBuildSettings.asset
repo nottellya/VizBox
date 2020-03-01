@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/VizBox/VizBox/Menu.unity
+    guid: 8681c5b2978d1d44a8efd744cf578874
+  - enabled: 0
+    path: Assets/VizBox/VizBox/VizBox.unity
+    guid: db9135a6a5518954689ff9c47cd7af96
+  m_configObjects: {}
