@@ -6,4 +6,5 @@ The project is about an accessible toolkit for data scientists to explore VR dat
 
 The simple aim is that, with the simplest VR device(Google Cardboard) and this VizBox, the newbie of VR can also dive into the world of VR data visualization.
 
-
+As for dissertation webpage, please visit:
+https://i.cs.hku.hk/~msd18087/
