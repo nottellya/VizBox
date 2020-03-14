@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/VizBox/VizBox/VizBox.unity
+- path: Assets/VizBox/viz.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
