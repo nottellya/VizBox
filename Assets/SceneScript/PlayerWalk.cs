@@ -4,14 +4,11 @@ using UnityEngine;
 
 public class PlayerWalk : MonoBehaviour
 {
-    // Start is called before the first frame update
     public int playerSpeed;
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButton("Fire1")) {

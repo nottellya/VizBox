@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/VizBox/VizBox/Menu.unity
-    guid: 8681c5b2978d1d44a8efd744cf578874
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/VizBox/VizBox/VizBox.unity
-    guid: db9135a6a5518954689ff9c47cd7af96
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/VizBox/viz.unity
+    guid: e84945e9c25fa8e459b4f69be955f23d
   m_configObjects: {}
