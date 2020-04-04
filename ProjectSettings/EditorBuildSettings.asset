@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/VizBox/viz.unity
     guid: e84945e9c25fa8e459b4f69be955f23d
   m_configObjects: {}

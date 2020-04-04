@@ -44,7 +44,9 @@ public class AttributeAnimation : MonoBehaviour {
     {
         _tween = 0.0f;
         vis.attributeFilters[0].maxFilter = _tween;
+        #if UnityEditor
         EditorApplication.update = DoTheTween;
+        # endif 
     }
 
     private void DoTheTween()
@@ -64,8 +66,10 @@ public class AttributeAnimation : MonoBehaviour {
             _tween = 1.0f;
             vis.attributeFilters[0].maxFilter = 1f;
             if (animateRange)
-            vis.attributeFilters[0].minFilter = 1f-rangeSize;            
+            vis.attributeFilters[0].minFilter = 1f-rangeSize;
+#if UnityEditor
             EditorApplication.update = null;
+#endif 
         }
 
         vis.updateViewProperties(AbstractVisualisation.PropertyType.AttributeFiltering);

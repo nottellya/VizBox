@@ -4,140 +4,35 @@ ScriptsOnlyBuild:
     - Axis
     - AxisRangeWidget
     - BrushingAndLinking
-    - CarouselImage
+    - CameraCtrl
     - GvrEditorEmulator
+    - GvrPointerGraphicRaycaster
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
     - IATK.BigMesh
     - IATK.CSVDataSource
     - IATK.Key
-    - IATK.ParallelCoordinatesVisualisation
-    - IATK.ScatterplotMatrixVisualisation
     - IATK.ScatterplotVisualisation
     - IATK.View
     - IATK.Visualisation
-    - PlayerWalk
-    - SceneController
+    - RotateModel
     Unity.TextMeshPro.dll:
-    - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
     - TMPro.TextContainer
     - TMPro.TextMeshPro
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/VizBox/VizBox/Menu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 72
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 109
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 9936}
-    - Class: 114
-      Script: {instanceID: 10008}
-    - Class: 114
-      Script: {instanceID: 10094}
-    - Class: 114
-      Script: {instanceID: 10118}
-    - Class: 114
-      Script: {instanceID: 10158}
-    - Class: 114
-      Script: {instanceID: 10210}
-    - Class: 114
-      Script: {instanceID: 10444}
-    - Class: 114
-      Script: {instanceID: 10714}
-    - Class: 114
-      Script: {instanceID: 10740}
-    - Class: 114
-      Script: {instanceID: 11168}
-    - Class: 114
-      Script: {instanceID: 11188}
-    - Class: 114
-      Script: {instanceID: 11354}
-    - Class: 114
-      Script: {instanceID: 11454}
-    - Class: 114
-      Script: {instanceID: 11470}
-    - Class: 114
-      Script: {instanceID: 11590}
-    - Class: 114
-      Script: {instanceID: 11726}
-    - Class: 114
-      Script: {instanceID: 11770}
-    - Class: 114
-      Script: {instanceID: 11864}
-    - Class: 114
-      Script: {instanceID: 11972}
-    - Class: 114
-      Script: {instanceID: 12098}
-    - Class: 114
-      Script: {instanceID: 12152}
-    - Class: 114
-      Script: {instanceID: 17706}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/VizBox/VizBox/VizBox.unity:
+    Assets/VizBox/viz.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -164,14 +59,18 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
-    - Class: 81
+    - Class: 72
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9936}
     - Class: 114
       Script: {instanceID: 9966}
     - Class: 114
@@ -179,41 +78,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10094}
     - Class: 114
-      Script: {instanceID: 10340}
+      Script: {instanceID: 10118}
     - Class: 114
-      Script: {instanceID: 10432}
+      Script: {instanceID: 10158}
+    - Class: 114
+      Script: {instanceID: 10210}
+    - Class: 114
+      Script: {instanceID: 10340}
     - Class: 114
       Script: {instanceID: 10444}
     - Class: 114
       Script: {instanceID: 10634}
     - Class: 114
-      Script: {instanceID: 10694}
+      Script: {instanceID: 10696}
     - Class: 114
-      Script: {instanceID: 10714}
-    - Class: 114
-      Script: {instanceID: 10888}
+      Script: {instanceID: 10716}
     - Class: 114
       Script: {instanceID: 10902}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 11142}
     - Class: 114
-      Script: {instanceID: 11354}
+      Script: {instanceID: 11172}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11192}
     - Class: 114
-      Script: {instanceID: 11590}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11726}
+      Script: {instanceID: 11478}
     - Class: 114
-      Script: {instanceID: 12098}
+      Script: {instanceID: 11598}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 11686}
     - Class: 114
-      Script: {instanceID: 12262}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 12304}
+      Script: {instanceID: 11996}
     - Class: 114
-      Script: {instanceID: 17706}
+      Script: {instanceID: 12108}
+    - Class: 114
+      Script: {instanceID: 12160}
+    - Class: 114
+      Script: {instanceID: 12190}
+    - Class: 114
+      Script: {instanceID: 17856}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -224,27 +131,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
-    - Class: 154
-      Script: {instanceID: 0}
-    - Class: 156
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 215
       Script: {instanceID: 0}
-    - Class: 218
-      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 1953259897
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -621,6 +518,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Menu
+  - hash:
+      serializedVersion: 2
       Hash: ffd851581ad1463c79a9801c93eea3df
     assemblyName: Assembly-CSharp.dll
     namespaceName: IATK
@@ -687,12 +590,6 @@ ScriptsOnlyBuild:
     className: ChromaticAberration
   - hash:
       serializedVersion: 2
-      Hash: 38a622b282a0d6ba49d6b06adcbebc8d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarouselImage
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: IATK
@@ -753,6 +650,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 553c7c58c93c26a44354476aaf299bd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRGaze
+  - hash:
+      serializedVersion: 2
       Hash: a53651ee3996fbba20dfe0fce02f0b23
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -769,6 +672,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrTrackedController
+  - hash:
+      serializedVersion: 2
+      Hash: b47a1a04758f8c685528d70291d145e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotateModel
   - hash:
       serializedVersion: 2
       Hash: 50c443b12ccc0b475183318b5088bcc5
@@ -807,6 +716,12 @@ ScriptsOnlyBuild:
     className: InputBrush
   - hash:
       serializedVersion: 2
+      Hash: 34cdac2641831d535c6c74a262878ed0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: button1
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -829,6 +744,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Axis
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CubeController
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -963,6 +884,12 @@ ScriptsOnlyBuild:
     className: EmulatorManager
   - hash:
       serializedVersion: 2
+      Hash: 3ecf27bedae7496d4f1657e835bfd6c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraCtrl
+  - hash:
+      serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1011,6 +938,12 @@ ScriptsOnlyBuild:
     className: GvrControllerVisual
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: playercontrol
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1033,12 +966,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 35211658020008d5d71c990f7b13add5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorDouble
   - hash:
       serializedVersion: 2
       Hash: 8dd4f3caf7094d2ff90ae367d168ed42
@@ -1107,12 +1034,6 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 23df33c63c85dc744f5898583b23fe09
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MouseLook
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1135,12 +1056,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GvrPointerInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 925579f5e7f2c815e1290ad57a628dce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Turn_Move
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -1269,6 +1184,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/VizBox/VizBox/Menu.unity
-  - Assets/VizBox/VizBox/VizBox.unity
-  playerPath: C:/Users/EdSwa/Desktop/InitialTest.apk
+  - Assets/VizBox/viz.unity
+  playerPath: C:/Users/EdSwa/Desktop/VizBox.apk

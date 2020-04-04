@@ -706,14 +706,19 @@ namespace IATK
                 mr.sharedMaterial = material;
 
                 string meshNameInPath = "Assets/SavedMeshes/" + "Mesh_" + indexCount.ToString() + ".asset";
-
+#if UnityEditor
                 AssetDatabase.CreateAsset(mesh, meshNameInPath);
+#endif
+#if UnityEditor
                 AssetDatabase.SaveAssets();
+#endif
+#if UnityEditor
 
                 Mesh m = AssetDatabase.LoadAssetAtPath<Mesh>(meshNameInPath);
-                
+
                 mf.mesh = m;
                 indexCount++;
+#endif
             }
             foreach (Transform child in theMesh.transform)
             {
@@ -723,7 +728,7 @@ namespace IATK
 
         public void SaveBigMesh()
         {
-            #if UNITY_EDITOR
+#if UNITY_EDITOR
 
             if (!Directory.Exists("Assets/SavedMeshes")) Directory.CreateDirectory("Assets/SavedMeshes");
 
@@ -742,7 +747,7 @@ namespace IATK
             }
             PrefabUtility.CreatePrefab("Assets/Prefabs/BigMesh.prefab", this.gameObject);
             
-            #endif
+#endif
         }
 
         /// <summary>
@@ -792,13 +797,19 @@ namespace IATK
             {
                 _tweenPosition = 0.0f;
                 this.SharedMaterial.SetFloat("_Tween", 0);
+#if UnityEditor
                 EditorApplication.update = DoTheTween;
+#endif
             }
             else if (type == TweenType.Size)
             {
                 _tweenSize = 0.0f;
                 this.SharedMaterial.SetFloat("_TweenSize", 0);
+
+#if UnityEditor
+
                 EditorApplication.update = DoTheTween;
+#endif
             }
         }
 
@@ -834,7 +845,9 @@ namespace IATK
 
             if (!isTweening)
             {
+#if UnityEditor
                 EditorApplication.update = null;
+#endif
             }
         }
     }
