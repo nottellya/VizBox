@@ -16,19 +16,14 @@ public class CameraCtrl : MonoBehaviour
         camera0 = GameObject.Find("camera0");
         camera1 = GameObject.Find("camera1");
         camera2 = GameObject.Find("camera2");
-
         camera0.SetActive(true);
         camera1.SetActive(false);
         camera2.SetActive(false);
-
-
     }
-    
     void Start()
     {
         // camera_0 = GameObject.Find("camera0");
         FindCamera();
-
     }
 
     public void model1() {
@@ -46,15 +41,9 @@ public class CameraCtrl : MonoBehaviour
         camera0.SetActive(true);
         camera1.SetActive(false);
         camera2.SetActive(false);
-
-
     }
 
-
-
-    // Update is called once per frame
     void Update()
     {
-        
     }
 }
